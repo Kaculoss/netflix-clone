@@ -31,7 +31,7 @@ export const Row = ({ title, fetchUrl, isLargeRow }) => {
     if (trailerUrl) {
       setTrialerUrl("");
     } else {
-      movieTrailer(movie?.name || "")
+      movieTrailer(movie?.title || "")
         .then((url) => {
           const urlParams = new URLSearchParams(new URL(url).search);
           setTrialerUrl(urlParams.get("v"));
