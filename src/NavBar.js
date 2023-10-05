@@ -23,12 +23,12 @@ export const NavBar = () => {
     <div className={`navBar ${show && "nav__black"}`}>
       <img
         className="nav__logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+        src="/logo.png"
         alt="Netfix Logo"
       />
       <img
         className="nav__avatar"
-        src="https://pbs.twimg.com/profile_images/1398399796667244549/oZeQQEzC_400x400.png"
+        src="/logoAvatar.png"
         alt="Netfix Logo"
       />
     </div>
